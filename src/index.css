@@ -213,3 +213,10 @@ code {
   font-family: "Inter", san-serif;
     padding-right: 20px;
 }
+
+/* Contact section */
+
+.contact {
+  background-color: #162c56;
+  color: #ffffff;
+}
