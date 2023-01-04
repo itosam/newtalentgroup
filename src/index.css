@@ -233,6 +233,7 @@ code {
   padding-right: 20px;
   text-align: left;
   font-size: large;
+  font-weight:300;
   float: right;
 }
 
@@ -241,6 +242,7 @@ code {
   padding-right: 20px;
   text-align: right;
   font-size: large;
+  font-weight:300;
   float: left;
 }
 
