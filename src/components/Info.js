@@ -3,7 +3,7 @@ function Info() {
     <div className="info">
       <div className="infosection">
         <p>
-          How we are &nbsp;<em>different</em>
+          How we are <em>different</em>
         </p>
         <button className="button2">Hire Talent</button>
       </div>

@@ -20,15 +20,12 @@ code {
   display: flex;
   padding-left: 3%;
 }
-.container {
-  display: relative;
-  align-items: center;
-}
 
 .heading {
   margin-right: 5rem;
   font-size: 3em;
   font-weight: 100;
+  padding-right: 6rem;
 }
 .heading2 {
   margin-right: 50px;
@@ -37,10 +34,11 @@ code {
 }
 
 .hero {
-  display: flex;
+  display: relative;
   float: right;
   width: 30%;
-  padding: 3rem;
+  z-index: 15;
+  overflow:visible;
 }
 
 .button1 {
@@ -211,12 +209,54 @@ code {
 
 .infop {
   font-family: "Inter", san-serif;
-    padding-right: 20px;
+  padding-right: 20px;
+  font-size:medium;
 }
 
+/* About section */
+
+.about {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  padding: 3% 5rem 5rem 3%
+}
+
+.katie_img {
+  display: flex;
+  width: 325px;
+  float: left
+}
+
+.founder_aboutk {
+  font-family: "Inter", san-serif;
+  padding-right: 20px;
+  text-align: left;
+  font-size: large;
+  float: right;
+}
+
+.founder_aboutc {
+  font-family: "Inter", san-serif;
+  padding-right: 20px;
+  text-align: right;
+  font-size: large;
+  float: left;
+}
+
+.cole_img {
+  display: flex;
+  width: 325px;
+  float: right
+}
 /* Contact section */
 
 .contact {
   background-color: #162c56;
   color: #ffffff;
+}
+
+.hiresection {
+  background-color: #F3F5FA;
+  color: black
 }
