@@ -216,16 +216,31 @@ code {
 /* About section */
 
 .about {
+  display: flex;
   font-size: 3em;
   font-weight: 100;
   text-align: center;
-  padding: 3% 5rem 5rem 3%
+  padding: 3% 5rem 5rem 3%;
+  align-items: center
+}
+
+
+
+
+
+.infoteam {
+  font-family: "Inter", san-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  padding: 0, 0, 1, 1
 }
 
 .katie_img {
   display: flex;
-  width: 325px;
-  float: left
+  width: 395px;
+  padding-right: 5rem;
+  float: left;
+ 
 }
 
 .founder_aboutk {
@@ -248,7 +263,8 @@ code {
 
 .cole_img {
   display: flex;
-  width: 325px;
+  width: 395px;
+  padding-left: 5rem;
   float: right
 }
 /* Contact section */
@@ -260,5 +276,9 @@ code {
 
 .hiresection {
   background-color: #F3F5FA;
-  color: black
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 10rem;
+
 }

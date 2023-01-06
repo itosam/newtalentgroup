@@ -4,11 +4,11 @@ import katie from "./assets/katie.png";
 function About() {
   return (
     <div className="about">
-      <div>
+      <div className="founders">
         <p>
           Experience you <em>can trust</em>
         </p>
-        <p className="infop" style={{ fontWeight: 300 }}>
+        <p className="infoteam">
           Our team combines experienced recruiters with startup operators who
           have founded, scaled, and excited companies.
         </p>
@@ -65,11 +65,12 @@ function About() {
               Francisco. Fully bootstrapped, Green Creative grew to be one of
               the largest commercial LED lighting companies, before successfully
               exiting to Harbour Group Capital in 2018.
-              <br/>
-              Cole has extensive experience in scaling up high growth teams.
-              He understands first hand the needs of a growing organization,
-              and has hired hundreds of employees across the businesses he has built.
-              <br/>
+              <br />
+              Cole has extensive experience in scaling up high growth teams. He
+              understands first hand the needs of a growing organization, and
+              has hired hundreds of employees across the businesses he has
+              built.
+              <br />
               Cole is an active member of YPO and in the Santa Monica Chapter.
             </p>
           </div>
