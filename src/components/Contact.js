@@ -11,7 +11,7 @@ function Contact() {
       <div className="contactform">
         <p>Build your team with New Talent Group</p>
         <p className="infop">
-          Lets connect! We look forward to learning about the growth of your
+          Let's connect! We look forward to learning about the growth of your
           business.
         </p>
         <form>
