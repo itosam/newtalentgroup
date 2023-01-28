@@ -44,7 +44,7 @@ function Contact() {
           <br />
           <textarea
             name="message"
-            placeholder="Tell Us More"
+            placeholder="Tell Us More!"
             rows="1"
           />
           <br />
