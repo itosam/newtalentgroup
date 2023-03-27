@@ -15,6 +15,7 @@ function Contact() {
           business.
         </p>
         <form>
+          <column>
           <input
             type="text"
             placeholder="Contact Name"
@@ -29,6 +30,8 @@ function Contact() {
           <br />
           <input type="text" placeholder="Industry" aria-label="industry" />
           <br />
+          </column>
+          <column>
           <input
             type="text"
             name="email"
@@ -48,6 +51,7 @@ function Contact() {
             rows="1"
           />
           <br />
+          </column>
           <button className="button1">Submit</button>
         </form>
       </div>

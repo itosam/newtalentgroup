@@ -285,7 +285,7 @@ code {
 
 input {
 
-    border : 0px solid #000000;
+    border : 0px solid #ffffff;
 
     border-bottom-width : 1px;
 
@@ -294,7 +294,7 @@ input {
 }
 
 textarea {
-      border : 0px solid #000000;
+      border : 0px solid #ffffff;
 
     border-bottom-width : 1px;
 
