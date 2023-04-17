@@ -299,4 +299,11 @@ textarea {
     border-bottom-width : 1px;
 
     background-color : transparent;
+     font-family: "Inter", san-serif;
+}
+
+p {
+
+  display: block;
+  
 }
