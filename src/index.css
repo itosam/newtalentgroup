@@ -225,9 +225,6 @@ code {
 }
 
 
-
-
-
 .infoteam {
   font-family: "Inter", san-serif;
   font-size: 3rem;
@@ -267,12 +264,6 @@ code {
   padding-left: 5rem;
   float: right
 }
-/* Contact section */
-
-.contact {
-  background-color: #162c56;
-  color: #ffffff;
-}
 
 .hiresection {
   background-color: #F3F5FA;
@@ -282,24 +273,32 @@ code {
   padding-top: 10rem;
 
 }
+/* Contact section */
 
+.contact {
+  background-color: #162c56;
+  color: #ffffff;
+}
 input {
 
     border : 0px solid #ffffff;
-
-    border-bottom-width : 1px;
+    border-bottom-width :1px;
 
     background-color : transparent;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: left;
 
 }
 
 textarea {
       border : 0px solid #ffffff;
-
     border-bottom-width : 1px;
-
     background-color : transparent;
      font-family: "Inter", san-serif;
+     font-size: 2rem;
+     padding: 1rem;
 }
 
 p {
