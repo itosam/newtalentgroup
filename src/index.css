@@ -278,6 +278,12 @@ code {
 .contact {
   background-color: #162c56;
   color: #ffffff;
+  font-size: 2rem;
+  display: block;
+  align-text: center;
+}
+.infop {
+ font-size: 2rem;
 }
 input {
 
