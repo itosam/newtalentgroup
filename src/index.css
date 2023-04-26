@@ -286,7 +286,8 @@ code {
 }
 
 .column {
-  flex: 50%;
+  grid: 50%;
+  padding: 10px;
 }
 
 .infop {
