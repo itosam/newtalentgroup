@@ -34,9 +34,9 @@ code {
 }
 
 .hero {
-  display: relative;
+  display: absolute;
   float: right;
-  width: 30%;
+  width: 40%;
   z-index: 15;
   overflow:visible;
 }
@@ -134,6 +134,7 @@ code {
 .nav-item.active {
   color: #ffffff;
   border: 1px solid #ffffff;
+
 }
 
 .nav-icon {
