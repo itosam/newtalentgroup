@@ -3,7 +3,7 @@ import katie from "./assets/katie.png";
 
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="founders">
         <p>
           Experience you <em>can trust</em>
