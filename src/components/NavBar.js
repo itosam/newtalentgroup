@@ -19,8 +19,8 @@ const NavBar = () => {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">EMPLOYERS</li>
-            <li className="nav-item"><a href="#about" scroll='smooth'>ABOUT US</a></li>
-            <li className="nav-item">CONTACT US</li>
+            <li className="nav-item">ABOUT US</li>
+            <li className="button1" style={{fontSize: '10px', marginTop:'3px'}}>CONTACT US</li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? <FaTimes /> : <FaBars />}></i>
