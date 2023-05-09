@@ -1,5 +1,6 @@
 function Info() {
   return (
+    <div className="infobround">
     <div className="info">
       <div className="infosection">
         <p>
@@ -37,6 +38,7 @@ function Info() {
           partnership from one of our Managing Partners.
         </p>
       </div>
+    </div>
     </div>
   );
 }

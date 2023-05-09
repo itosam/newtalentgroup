@@ -28,6 +28,8 @@ code {
   top: 0;
   z-index: 20;
   padding-bottom: 10px;
+  padding-right:0;
+  margin-right:0;
 }
 
 .nav-container {
@@ -105,7 +107,7 @@ code {
 .nav-icon {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -147,6 +149,25 @@ code {
     cursor: pointer;
     color: #ffffff;
   }
+
+  .hero {
+/* text-decoration:none;
+position: relative;
+z-index: 10;
+width: 500px;
+top: 100px;
+left: -500px;
+margin-top: 3%;
+margin-left:4%;
+padding-left: 40px ; */
+float: right;
+margin-top: -500px;
+width: 600px;
+padding-bottom: 10px;
+padding-left:2%
+
+
+}
 }
 /* HOME SECTION */
 .home {
@@ -157,8 +178,7 @@ code {
   padding-top:30px;
 }
 .container{
-  display:block;
-  margin-right: 500px;
+  margin-right: 50%;
 }
 
 .heading {
@@ -183,10 +203,13 @@ left: -500px;
 margin-top: 3%;
 margin-left:4%;
 padding-left: 40px ; */
+z-index:10;
 float: right;
-margin-top: -400px;
+margin-top: -500px;
 width: 600px;
+margin-right:400px;
 padding-bottom: 10px;
+padding-left:2%
 
 
 }
@@ -202,11 +225,18 @@ padding-bottom: 10px;
   margin: 0 0 10%;
 }
 /* Info Section */
-.info {
-  direction: row;
+.infobround {
   background-color: #E5E5E5;
   padding: 3% 5rem 5rem 3%;
   overflow: visible;
+  margin-bottom:3px;
+}
+.info {
+    padding-top: 15%;
+    display: grid;
+	  grid-template-columns: 33% 33% 33%;
+	 position: static ;
+  
 }
 
 .infosection {
