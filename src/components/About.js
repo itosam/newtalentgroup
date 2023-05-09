@@ -5,10 +5,10 @@ function About() {
   return (
     <div id="about" className="about">
       <div className="founders">
-        <p>
+        <p style={{paddingBottom:'50px'}}>
           Experience you <em>can trust</em>
         </p>
-        <p className="infoteam">
+        <p className="infoteam" style={{paddingBottom:'50px'}}>
           Our team combines experienced recruiters with startup operators who
           have founded, scaled, and excited companies.
         </p>

@@ -232,10 +232,10 @@ padding-left:2%
   margin-bottom:3px;
 }
 .info {
+  overflow: visible;
     padding-top: 15%;
     display: grid;
 	  grid-template-columns: 33% 33% 33%;
-	 position: static ;
   
 }
 
@@ -291,6 +291,7 @@ padding-left:2%
 .founder_aboutk {
   font-family: "Inter", san-serif;
   padding-right: 20px;
+  padding-bottom: 100px;
   text-align: left;
   font-size: large;
   font-weight:300;
@@ -300,6 +301,7 @@ padding-left:2%
 .founder_aboutc {
   font-family: "Inter", san-serif;
   padding-right: 20px;
+  padding-bottom: 100px;
   text-align: right;
   font-size: large;
   font-weight:300;
@@ -329,6 +331,10 @@ padding-left:2%
   font-size: 2rem;
   display: block;
 }
+.contactform {
+padding-top:50px;
+padding-left:100px;
+}
 .row {
   display: flex;
 }
@@ -341,6 +347,7 @@ padding-left:2%
 .infop {
  font-size: 2rem;
 }
+
 input {
 
     border : 0px solid #ffffff;
