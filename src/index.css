@@ -352,7 +352,6 @@ input {
 
     border : 0px solid #ffffff;
     border-bottom-width :1px;
-
     background-color : transparent;
     font-size: 2rem;
     padding-top: 3rem;
@@ -367,5 +366,6 @@ textarea {
     background-color : transparent;
      font-family: "Inter", san-serif;
      font-size: 2rem;
-     padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
