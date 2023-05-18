@@ -1,14 +1,17 @@
 function Info() {
   return (
     <div className="infobround">
+      <div className='infoc'>
+      <div className="row"> 
     <div className="info">
-      <div className="infosection">
-        <p>
-          How we are <em>different</em>
+        <p className='heading'>__<br/>
+          How we are <br></br><em>different</em>
+          <br/><button className="button2">Hire Talent</button>
         </p>
-        <button className="button2">Hire Talent</button>
-      </div>
-      <div>
+       
+      </div> 
+      <div className="info">
+       
         <p className="infop">
           As Founders ourselves, we know fast time to hire is critical to
           scaling your business. Hiring a top performer can be a 100x
@@ -23,7 +26,7 @@ function Info() {
           your organization, culture, and position.
         </p>
       </div>
-      <div>
+      <div className="info">
         <p className="infop">
           We put our experience and networks to work for you engaging and
           exciting candidates who are not actively seeking new employment.
@@ -37,7 +40,8 @@ function Info() {
           at any time. When you work with us, you know you are receiving direct
           partnership from one of our Managing Partners.
         </p>
-      </div>
+    </div>
+    </div>
     </div>
     </div>
   );

@@ -6,14 +6,14 @@ body {
   font-family: -apple-system, "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  max-width: 3000px
+  \\}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-
 
 /* navigation */
 
@@ -40,6 +40,8 @@ code {
   height: 80px;
   max-width: 1500px;
 }
+
+
 
 .main-container {
   position: absolute;
@@ -82,6 +84,7 @@ code {
   line-height: 40px;
   margin-right: 1rem;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .nav-item:after {
@@ -131,12 +134,14 @@ code {
   .nav-item .active {
     color: #ffffff;
     border: none;
+   
   }
 
   .nav-links {
     padding: 1.5rem;
     width: 100%;
-    display: table;
+    display: table; 
+    
   }
 
   .nav-icon {
@@ -176,10 +181,13 @@ padding-left:2%
   padding-left: 3%;
   overflow: visible;
   padding-top:30px;
+
 }
-.container{
-  margin-right: 50%;
+
+.container {
+  position: relative;
 }
+
 
 .heading {
   margin-right: 5rem;
@@ -194,22 +202,7 @@ padding-left:2%
 }
 
 .hero {
-/* text-decoration:none;
-position: relative;
-z-index: 10;
-width: 500px;
-top: 100px;
-left: -500px;
-margin-top: 3%;
-margin-left:4%;
-padding-left: 40px ; */
-z-index:10;
-float: right;
-margin-top: -500px;
 width: 600px;
-margin-right:400px;
-padding-bottom: 10px;
-padding-left:2%
 
 
 }
@@ -219,46 +212,50 @@ padding-left:2%
   color: black;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  font-size: large;
   border-color: transparent;
   border-radius: 4rem;
   padding: 10px 15px;
   margin: 0 0 10%;
+  cursor: pointer;
 }
 /* Info Section */
 .infobround {
   background-color: #E5E5E5;
-  padding: 3% 5rem 5rem 3%;
   overflow: visible;
   margin-bottom:3px;
 }
+.infoc {
+  padding-left: 3%;
+  padding-right: 3%;
+  
+}
 .info {
   overflow: visible;
-    padding-top: 15%;
-    display: grid;
-	  grid-template-columns: 33% 33% 33%;
+  display: grid;
+  float: left;
+  width: 33.33%;
   
 }
 
-.infosection {
-  margin-right: 10rem;
-  font-size: 3em;
-  font-weight: 100;
-}
 .button2 {
   background-color: #162c56;
   color: #ffffff;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  font-size:large;
   border-color: transparent;
   border-radius: 4rem;
-  padding: 10px 15px;
+  padding: 10px 20px;
   margin: 0 0 10%;
+  cursor: pointer;
 }
 
 .infop {
   font-family: "Inter", san-serif;
-  padding-right: 20px;
-  font-size:medium;
+  font-weight: 300;
+  padding-top: 10%;
+  padding-right: 10%
 }
 
 /* About section */
@@ -340,32 +337,20 @@ padding-left:100px;
 }
 
 .column {
-  grid: 50%;
-  padding: 20px;
-}
-
-.infop {
- font-size: 2rem;
+  width: 50%;
+  padding:0;
+  margin:0;
 }
 
 input {
 
     border : 0px solid #ffffff;
     border-bottom-width :1px;
+    width: 700px;
     background-color : transparent;
-    font-size: 2rem;
+    font-size: large;
     padding-top: 3rem;
     padding-bottom: 1rem;
     text-align: left;
 
-}
-
-textarea {
-      border : 0px solid #ffffff;
-    border-bottom-width : 1px;
-    background-color : transparent;
-     font-family: "Inter", san-serif;
-     font-size: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
 }
